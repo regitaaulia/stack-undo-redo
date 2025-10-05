@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Stack Undo & Redo - Regita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stack Undo & Redo</h1>
+        <input type="text" id="changeInput" placeholder="Masukkan perubahan data">
+        <button onclick="pushChange()">Push</button>
+        <button onclick="popChange()">Undo (Pop)</button>
+        <button onclick="redoChange()">Redo</button>
+        <button onclick="peekChange()">Peek</button>
+        <div id="stackDisplay"></div>
+        <div id="historyDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
